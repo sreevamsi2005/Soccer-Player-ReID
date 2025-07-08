@@ -86,4 +86,6 @@ python main.py
 
 ## 📺 Sample Output
 
+![Sample Output](output/result.png)
+
 The output video with tracked players will be saved as `output/final_output.mp4`.
