@@ -5,6 +5,7 @@ This project is a real-time **soccer player tracker** that detects and tracks pl
 - **Deep SORT** tracking algorithm
 
 ---
+![Sample Output](output/result.png)
 
 ## 🔍 What It Does
 
@@ -85,7 +86,5 @@ python main.py
 ---
 
 ## 📺 Sample Output
-
-![Sample Output](output/result.png)
 
 The output video with tracked players will be saved as `output/final_output.mp4`.
