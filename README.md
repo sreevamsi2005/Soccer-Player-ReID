@@ -24,7 +24,7 @@ This project is a real-time **soccer player tracker** that detects and tracks pl
 
 ```bash
 soccer-reid/
-├── best.pt                    # Trained YOLOv8 model
+├── best.pt                    # Trained YOLOv8 model (download separately, see below)
 ├── 15sec_input_720p.mp4       # Input video
 ├── output/
 │   └── final_output.mp4       # Final output video with tracking
@@ -66,7 +66,17 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Run the Main Script
+### 4️⃣ Download the YOLOv8 Model Weights
+
+Download the `best.pt` file from the following link:
+
+[Download best.pt from Google Drive](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)
+
+After downloading, place the `best.pt` file in the root of the `soccer-reid` folder (same location as `main.py`).
+
+---
+
+### 5️⃣ Run the Main Script
 
 ```bash
 python main.py
